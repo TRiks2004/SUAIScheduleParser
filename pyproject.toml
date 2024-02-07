@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "suaischeduleparser"
+version = "0.1.0"
+description = ""
+authors = ["triks <triks0001000@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+python-docx = "^1.1.0"
+pydantic = "^2.6.1"
+requests = "^2.31.0"
+beautifulsoup4 = "^4.12.3"
+lxml = "^5.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
